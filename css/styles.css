@@ -1,0 +1,210 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    margin: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: rgb(27, 26, 26);
+}
+
+#box-principal{
+    display: block;
+    padding:0;
+}
+
+
+/* --------------- barra de navegacion --------------- */
+
+
+nav {
+    width: 100%;
+    height: 4.1rem;
+    position: fixed;
+    background: #203244;
+    box-shadow: #1b1818 3px 3px 5px 3px
+
+ }
+
+nav ul{
+
+    display: flex;
+    float: right;
+    padding-right: 10rem;
+}
+
+nav li {
+    list-style: none;
+    margin-top: 0.8rem;
+    margin-left: 3rem;
+    font-size: 1.8rem;   
+}
+
+.link{
+    text-transform: uppercase;
+
+    color: white;
+}
+
+.link:hover{
+
+    color: green;
+}
+
+
+/* ---------------------------------------------------- */
+
+
+
+
+/* ---------------- Pagina de inicio ----------------------- */
+
+.flex{
+    display: flex;
+}
+
+.box{
+    width: 129.7rem;
+    height: 41.5rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.section-pc{
+    height: 30rem;
+    padding-top: 5rem;
+    margin: auto;
+}
+
+.box-img{
+    width: 30rem;
+    height: 20rem;
+    margin: auto;
+}
+
+.img-pc{
+    height: 10rem;
+    margin-bottom: 3rem;
+    padding-left: 6rem;
+}
+
+.title-text, .title-name{
+    color: white;
+    text-align: center; 
+}
+.title-name, .title-text, .title-portfolio{
+    text-transform: uppercase;
+}
+
+
+/* ------------------- pagina portfolio ---------------------- */
+
+
+
+    
+.box-portfolio{
+    background: rgb(151, 24, 24);
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    text-align: center;  
+    width: 129.7rem;
+    height: 41.5rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.title-portfolio{
+    width: 50rem;
+    height: 8rem;
+    color: white;
+    border: 0.2rem solid yellow;
+    font-size: 2rem;
+    margin-top: 4rem;
+}
+
+.title-portfolio > h1{
+    border: 1px solid purple;
+    width: 27rem;
+    height: 4rem;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.divider-line {
+    width: 27rem;
+    height: 0.25rem;
+    background-color: white;
+    border-radius: 1rem;
+    margin: auto;
+}
+
+.box-portfolio-section-1{
+    margin-top: 5rem;
+    width: 120rem;
+    height: 38rem;
+    border: 1px solid purple;
+    justify-content: space-around;
+    align-content: space-around;
+    
+}
+
+.box-portfolio-section{
+    width: 30rem;
+    height: 33rem;
+    border: 0.2rem solid white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    transition: 300ms;
+
+}
+
+
+.img-portfolio{
+    width: 21rem;
+    height: 18rem;
+    border: 0.2rem solid black;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.box-portfolio-section:hover{
+    border: 0.2rem solid black;
+    border-radius: 0.5rem;
+    box-shadow: rgb(67 8 8) 7px 13px 20px 8px;
+    transform: scale(1.1);
+    transition: 300ms;
+}
+
+.title-project{
+    border: 0.2rem solid green;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 1rem;
+}
+.p-portfolio{
+    border: 0.2rem solid orange;
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* ------------------------------------------------- */
+
+
+
+/* ----------------------- pagina sobre mi ----------------------------- */
+
+
+.box3{
+    width: 129.7rem;
+    height: 41.5rem;
+    padding-top: 10rem;
+    
+    background: rgb(52, 126, 37);
+}
