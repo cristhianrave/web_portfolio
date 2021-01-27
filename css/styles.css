@@ -225,11 +225,11 @@ nav li {
     margin-bottom: 1rem;
     width: 95%;
     height: 2rem;
-    font-size: 99%;
+    font-size: 90%;
 }
 .p-portfolio{
     border: 0.2rem solid orange;
-    font-size: 99%;
+    font-size: 90%;
     color: white;
     width: 95%;
     height: 5rem;
@@ -265,9 +265,14 @@ nav li {
     text-transform: uppercase;
 }
 
+.box-skill-2{
+    width: 6%;
+    height: 75%;
+}
+
 .img-skills{
-    width: 4rem;
-    height: 4rem;
+    width: 90%;
+    height: 90%;
     border: 0.2rem solid black;
     border-radius: 0.5rem;
 }
@@ -275,8 +280,6 @@ nav li {
 
 .img-skills:hover{
     background: #203244;
-    width: 5rem;
-    height: 5rem;
     border: 0.2rem solid black;
     border-radius: 0.5rem;
     transform: scale(1.1);
