@@ -2,6 +2,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
 }
 
 html{
@@ -20,7 +21,7 @@ body{
 }
 
 
-/* --------------- barra de navegacion --------------- */
+/* --------------- nav --------------- */
 
 
 nav {
@@ -42,18 +43,19 @@ nav li {
     list-style: none;
     margin-top: 0.8rem;
     margin-left: 3rem;
-    font-size: 1.8rem;   
+    font-size: 1.8rem;  
+    transition: 300ms; 
 }
+
 
 .link{
     text-transform: uppercase;
-
     color: white;
 }
 
 .link:hover{
-
     color: green;
+    
 }
 
 
@@ -62,7 +64,7 @@ nav li {
 
 
 
-/* ---------------- Pagina de inicio ----------------------- */
+/* ---------------- Page inicio ----------------------- */
 
 .flex{
     display: flex;
@@ -70,7 +72,7 @@ nav li {
 
 .box{
     width: 100%;
-    height: 51.5rem;
+    height: 53.3rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
@@ -120,7 +122,7 @@ nav li {
 }
 
 
-/* ------------------- pagina portfolio ---------------------- */
+/* ------------------- page portfolio ---------------------- */
 
 
 
@@ -132,7 +134,7 @@ nav li {
     align-content: space-around;
     text-align: center;  
     width: 100%;
-    height: 51.5rem;
+    height: 53.3rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
@@ -162,26 +164,30 @@ nav li {
     border-radius: 1rem;
     margin: auto;
 }
+/* ----------------- section-portfolio ---------------------- */
+
 
 .box-portfolio-section-1{
     width: 95%;
-    height: 30rem;
+    height: 25rem;
     border: 1px solid purple;
     justify-content: space-around;
     align-content: space-around;   
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 .box-portfolio-section-2{
-    width: 19%;
-    height: 85%;
+    width: 20%;
+    height: 90%;
     border: 1px solid green;
     justify-content: space-around;
-    align-content: space-around;   
+    align-content: space-around;  
 }
 
 .box-portfolio-section{
     width: 90%;
-    height: 25rem;
+    height: 20rem;
     border: 0.2rem solid white;
     border-radius: 0.5rem;
     padding: 1rem;
@@ -190,13 +196,18 @@ nav li {
 }
 
 .img-portfolio{
-    width: 95%;
-    height: 47%;
+    width: 70%;
+    height: 50%;
     border: 0.2rem solid black;
     border-radius: 0.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
+.img-portfolio:hover{
+    box-shadow: black 7px 13px 20px 5px;
+    transition: 100ms;
+
+}
 
 .box-portfolio-section:hover{
     border: 0.2rem solid black;
@@ -221,62 +232,24 @@ nav li {
     font-size: 99%;
     color: white;
     width: 95%;
-    height: 5em;
-}
-
-/* ------------------------------------------------- */
-
-
-
-/* ----------------------- pagina sobre mi ----------------------------- */
-
-
-.box3{
-    background: green;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: space-around;
-    text-align: center;  
-    width: 100%;
-    height: 51.5rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-}
-
-.title-about{
-    width: 50%;
     height: 5rem;
-    color: white;
-    border: 0.2rem solid yellow;
-    margin: auto;
-    margin-top: 4rem;
-}
-
-.title-about > h1{
-    border: 1px solid purple;
-    font-size: 3rem; 
-    text-transform: uppercase;
 }
 
 
-.box-content{
-    width: 95%;
-    height: 33rem;
-    border: 1px solid white;
-    margin: auto;
-    margin-bottom: 1rem;
-}
+/* -------------------------------------------------------------- */
+
+/* ----------------------- Skills ---------------------------- */
 
 
 .box-skills{
     margin: auto;
-    width: 95%;
-    height: 12rem;
+    width: 80%;
+    height: 10rem;
     border: 1px solid blue;
 }
 .box-skills-1{
-    width: 95%;
-    height: 7rem;
+    width: 90%;
+    height: 6rem;
     border: 1px solid gray;
     padding-top: 1rem;
     display: flex;
@@ -289,17 +262,19 @@ nav li {
     font-size: 2rem;
     width: 20%;
     margin: auto;
+    text-transform: uppercase;
 }
 
 .img-skills{
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     border: 0.2rem solid black;
     border-radius: 0.5rem;
 }
 
 
 .img-skills:hover{
+    background: #203244;
     width: 5rem;
     height: 5rem;
     border: 0.2rem solid black;
@@ -308,7 +283,87 @@ nav li {
 }
 
 
-/* -------------------------------------------------------------- */
+/* ------------------------------------------------- */
+
+
+/* ----------------------- page about ----------------------------- */
+
+
+.box3{
+    background: green;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    text-align: center;  
+    width: 100%;
+    height: 53.3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.title-about{
+    width: 50%;
+    height: 5rem;
+    color: white;
+    border: 0.2rem solid yellow;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.title-about > h1{
+    border: 1px solid purple;
+    font-size: 3rem; 
+    text-transform: uppercase;
+}
+
+
+.box-content{
+    width: 80%;
+    height: 45rem;
+    border: 1px solid white;
+    margin: auto;
+    display: flex;
+}
+
+.box-img-profile{
+    width: 20%;
+    height: 40rem;
+    border: 1px solid red;
+    margin: auto;
+
+}
+
+.box-text-about{
+    width: 60%;
+    height: 40rem;
+    border: 1px solid red;
+    margin: auto;
+
+}
+.box-redes{
+    width: 10%;
+    height: 40rem;
+    border: 1px solid red;
+    margin: auto;
+    
+}
+
+.box-redes-1{
+    width: 40%;
+    height: 4rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    margin: auto;
+    margin-top: 50%;
+}
+
+.box-redes-1:hover{
+    transform: scale(1.1);
+
+}
+
+/* ----------------------------------------------------- */
+
 
 
 /* --------------------------- footer ---------------------------- */
