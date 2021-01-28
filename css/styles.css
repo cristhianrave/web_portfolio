@@ -80,7 +80,6 @@ nav li {
 .box-inicio{
     width: 90%;
     height: 40rem;
-    border: 1px solid olivedrab;
     margin: auto;
     padding-top: 15rem;
 }
@@ -89,7 +88,6 @@ nav li {
     width: 50%;
     height: 20rem;
     margin: auto;
-    border: 0.2rem solid white;
     text-align: center;  
     padding: 5rem;
 
@@ -97,7 +95,6 @@ nav li {
 
 .img-pc{
     height: 10rem;
-    border: 0.2rem solid green;
     margin-bottom: 3rem;
     width: 15rem;
 
@@ -105,14 +102,12 @@ nav li {
 .title-name{
     font-size: 3rem;
     color: white;
-    border: 0.2rem solid gray;
     width: 90%;
     margin: auto;
 }
 
 .title-text {
     color: rgb(211, 200, 200);
-    border: 0.2rem solid purple;
     width: 90%;
     margin: auto;
 
@@ -143,12 +138,9 @@ nav li {
     width: 50%;
     height: 6rem;
     color: white;
-    border: 0.2rem solid yellow;
-
 }
 
 .title-portfolio > h1{
-    border: 1px solid purple;
     width: 95%;
     height: 4rem;
     margin: auto;
@@ -158,7 +150,7 @@ nav li {
 
 
 .divider-line {
-    width: 50%;
+    width: 30%;
     height: 0.25rem;
     background-color: white;
     border-radius: 1rem;
@@ -169,8 +161,7 @@ nav li {
 
 .box-portfolio-section-1{
     width: 95%;
-    height: 25rem;
-    border: 1px solid purple;
+    height: 23rem;
     justify-content: space-around;
     align-content: space-around;   
     margin-right: 10%;
@@ -178,21 +169,20 @@ nav li {
 }
 
 .box-portfolio-section-2{
-    width: 20%;
-    height: 90%;
-    border: 1px solid green;
-    justify-content: space-around;
-    align-content: space-around;  
+    width: 18%;
+    height: 85%; 
 }
 
 .box-portfolio-section{
-    width: 90%;
+    width: 98%;
     height: 20rem;
     border: 0.2rem solid white;
     border-radius: 0.5rem;
-    padding: 1rem;
+    padding: 0.5;
+    padding-top: 1rem;
     transition: 300ms;
     margin: auto;
+    
 }
 
 .img-portfolio{
@@ -219,20 +209,32 @@ nav li {
 }
 
 .title-project{
-    border: 0.2rem solid green;
     text-transform: uppercase;
     color: white;
-    margin-bottom: 1rem;
+    margin: auto;
     width: 95%;
     height: 2rem;
     font-size: 90%;
 }
+
+.box-p-portfolio{
+    width: 90%;
+    height: 27%;
+    margin: auto;
+    border: 1px solid green;
+    border-radius: 0.5rem;
+    background: #5d5f61;
+}
+
+
 .p-portfolio{
-    border: 0.2rem solid orange;
+    color: black;
+    width: 90%;
+    height: 75%;
+    margin: auto;
+    border-radius: 0.5rem;
     font-size: 90%;
-    color: white;
-    width: 95%;
-    height: 5rem;
+    margin-top: 0.5rem;
 }
 
 
@@ -245,20 +247,17 @@ nav li {
     margin: auto;
     width: 80%;
     height: 10rem;
-    border: 1px solid blue;
 }
 .box-skills-1{
     width: 90%;
     height: 6rem;
-    border: 1px solid gray;
-    padding-top: 1rem;
+    padding-top: 3rem;
     display: flex;
     justify-content: space-around;
     align-content: space-around; 
     margin: auto;
 }
 .box-skills > h1{
-    border: 1px solid white;
     font-size: 2rem;
     width: 20%;
     margin: auto;
@@ -271,7 +270,7 @@ nav li {
 }
 
 .img-skills{
-    width: 90%;
+    width: 80%;
     height: 90%;
     border: 0.2rem solid black;
     border-radius: 0.5rem;
